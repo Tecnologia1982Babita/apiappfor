@@ -1,0 +1,47 @@
+{
+  "name": "sqlnode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bluebird": "^3.7.2",
+    "connect-flash": "^0.1.1",
+    "connect-session-sequelize": "^7.0.0",
+    "cookie": "^0.4.1",
+    "cookie-parser": "~1.3.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.0.0",
+    "express-session": "^1.17.1",
+    "googleapis": "^39.2.0",
+    "lodash": "^4.17.19",
+    "md5": "^2.2.1",
+    "moment": "^2.27.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.19.6",
+    "upper-case": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "sequelize-cli": "^5.5.1"
+  },
+  "description": "<h1 align=\"center\">   <img alt=\"GoStack\" src=\"https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/masterclass.png\" width=\"120px\" /> </h1>",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SILAS89OLIVEIRA/apibabita.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SILAS89OLIVEIRA/apibabita/issues"
+  },
+  "homepage": "https://github.com/SILAS89OLIVEIRA/apibabita#readme"
+}
